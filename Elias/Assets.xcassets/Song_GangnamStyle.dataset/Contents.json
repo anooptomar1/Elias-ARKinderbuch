@@ -1,0 +1,13 @@
+{
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "data" : [
+    {
+      "idiom" : "universal",
+      "filename" : "Song_GangnamStyle_freeMusic.mp3",
+      "universal-type-identifier" : "public.mp3"
+    }
+  ]
+}

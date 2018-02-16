@@ -7,64 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E13CFB751FE2C4D200FD82F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CFB741FE2C4D200FD82F8 /* AppDelegate.swift */; };
-		E13CFB771FE2C4D200FD82F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CFB761FE2C4D200FD82F8 /* ViewController.swift */; };
-		E13CFB7A1FE2C4D200FD82F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13CFB781FE2C4D200FD82F8 /* Main.storyboard */; };
-		E13CFB7C1FE2C4D200FD82F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13CFB7B1FE2C4D200FD82F8 /* Assets.xcassets */; };
-		E13CFB7F1FE2C4D200FD82F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13CFB7D1FE2C4D200FD82F8 /* LaunchScreen.storyboard */; };
-		E13CFB8A1FE2C4D200FD82F8 /* EliasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CFB891FE2C4D200FD82F8 /* EliasTests.swift */; };
-		E13CFB951FE2C4D200FD82F8 /* EliasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E13CFB941FE2C4D200FD82F8 /* EliasUITests.swift */; };
+		E10C072A2023A48B00895126 /* MeinErsteHilfeKasten.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10C07292023A48B00895126 /* MeinErsteHilfeKasten.swift */; };
+		E14DBE2C2034EC360022DAD8 /* Chapter2_Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DBE2B2034EC360022DAD8 /* Chapter2_Car.swift */; };
+		E14DBE2E203513340022DAD8 /* Chapter7_Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DBE2D203513340022DAD8 /* Chapter7_Room.swift */; };
+		E14DBE30203513800022DAD8 /* Chapter1_FlowerGarden.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DBE2F203513800022DAD8 /* Chapter1_FlowerGarden.swift */; };
+		E17748D320110C0F007F46CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E17748CF20110C0E007F46CF /* LaunchScreen.storyboard */; };
+		E17748E020110CA7007F46CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17748DF20110CA7007F46CF /* AppDelegate.swift */; };
+		E17748E220110CEF007F46CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17748E120110CEF007F46CF /* ViewController.swift */; };
+		E1AAFC65201111E800A678EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1AAFC64201111E800A678EF /* Main.storyboard */; };
+		E1AAFC692011161D00A678EF /* Chapter4_Planets.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAFC682011161D00A678EF /* Chapter4_Planets.swift */; };
+		E1AAFC6B201122A300A678EF /* Chapter6_Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAFC6A201122A300A678EF /* Chapter6_Music.swift */; };
+		E1AAFC6D2011250D00A678EF /* Song_GangnamStyle_freeMusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E1AAFC6C2011250D00A678EF /* Song_GangnamStyle_freeMusic.mp3 */; };
+		E1AAFC6F20112DD800A678EF /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAFC6E20112DD800A678EF /* PickerView.swift */; };
+		E1AAFC792011646A00A678EF /* Models.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AAFC782011646A00A678EF /* Models.scnassets */; };
+		E1AAFC892013760200A678EF /* Function_3dModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAFC882013760200A678EF /* Function_3dModel.swift */; };
+		E1AAFC9F2013B8CC00A678EF /* Chapter3_Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAFC9E2013B8CC00A678EF /* Chapter3_Drawing.swift */; };
+		E1AAFCD7201A934D00A678EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1AAFCD6201A934C00A678EF /* Assets.xcassets */; };
+		E1AAFCDF201D1C9300A678EF /* Chapter5_Basketball.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1AAFCDE201D1C9300A678EF /* Chapter5_Basketball.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		E13CFB861FE2C4D200FD82F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E13CFB691FE2C4D100FD82F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E13CFB701FE2C4D100FD82F8;
-			remoteInfo = Elias;
-		};
-		E13CFB911FE2C4D200FD82F8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E13CFB691FE2C4D100FD82F8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E13CFB701FE2C4D100FD82F8;
-			remoteInfo = Elias;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		E10C07292023A48B00895126 /* MeinErsteHilfeKasten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeinErsteHilfeKasten.swift; sourceTree = "<group>"; };
 		E13CFB711FE2C4D100FD82F8 /* Elias.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elias.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		E13CFB741FE2C4D200FD82F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E13CFB761FE2C4D200FD82F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E13CFB791FE2C4D200FD82F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E13CFB7B1FE2C4D200FD82F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E13CFB7E1FE2C4D200FD82F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E13CFB801FE2C4D200FD82F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E13CFB851FE2C4D200FD82F8 /* EliasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13CFB891FE2C4D200FD82F8 /* EliasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliasTests.swift; sourceTree = "<group>"; };
 		E13CFB8B1FE2C4D200FD82F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E13CFB901FE2C4D200FD82F8 /* EliasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EliasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E13CFB941FE2C4D200FD82F8 /* EliasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliasUITests.swift; sourceTree = "<group>"; };
 		E13CFB961FE2C4D200FD82F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14DBE2B2034EC360022DAD8 /* Chapter2_Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2_Car.swift; sourceTree = "<group>"; };
+		E14DBE2D203513340022DAD8 /* Chapter7_Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter7_Room.swift; sourceTree = "<group>"; };
+		E14DBE2F203513800022DAD8 /* Chapter1_FlowerGarden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1_FlowerGarden.swift; sourceTree = "<group>"; };
+		E17748CF20110C0E007F46CF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E17748DF20110CA7007F46CF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E17748E120110CEF007F46CF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1AAFC64201111E800A678EF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E1AAFC682011161D00A678EF /* Chapter4_Planets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4_Planets.swift; sourceTree = "<group>"; };
+		E1AAFC6A201122A300A678EF /* Chapter6_Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter6_Music.swift; sourceTree = "<group>"; };
+		E1AAFC6C2011250D00A678EF /* Song_GangnamStyle_freeMusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Song_GangnamStyle_freeMusic.mp3; path = Assets/Sound/Song_GangnamStyle_freeMusic.mp3; sourceTree = SOURCE_ROOT; };
+		E1AAFC6E20112DD800A678EF /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerView.swift; sourceTree = "<group>"; };
+		E1AAFC7620115F5C00A678EF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1AAFC782011646A00A678EF /* Models.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Models.scnassets; sourceTree = "<group>"; };
+		E1AAFC882013760200A678EF /* Function_3dModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function_3dModel.swift; sourceTree = "<group>"; };
+		E1AAFC9E2013B8CC00A678EF /* Chapter3_Drawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter3_Drawing.swift; sourceTree = "<group>"; };
+		E1AAFCD6201A934C00A678EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1AAFCDE201D1C9300A678EF /* Chapter5_Basketball.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter5_Basketball.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E13CFB6E1FE2C4D100FD82F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E13CFB821FE2C4D200FD82F8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E13CFB8D1FE2C4D200FD82F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -88,8 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				E13CFB711FE2C4D100FD82F8 /* Elias.app */,
-				E13CFB851FE2C4D200FD82F8 /* EliasTests.xctest */,
-				E13CFB901FE2C4D200FD82F8 /* EliasUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +84,24 @@
 		E13CFB731FE2C4D100FD82F8 /* Elias */ = {
 			isa = PBXGroup;
 			children = (
-				E13CFB741FE2C4D200FD82F8 /* AppDelegate.swift */,
-				E13CFB761FE2C4D200FD82F8 /* ViewController.swift */,
-				E13CFB781FE2C4D200FD82F8 /* Main.storyboard */,
-				E13CFB7B1FE2C4D200FD82F8 /* Assets.xcassets */,
-				E13CFB7D1FE2C4D200FD82F8 /* LaunchScreen.storyboard */,
-				E13CFB801FE2C4D200FD82F8 /* Info.plist */,
+				E17748DF20110CA7007F46CF /* AppDelegate.swift */,
+				E17748E120110CEF007F46CF /* ViewController.swift */,
+				E1AAFC6E20112DD800A678EF /* PickerView.swift */,
+				E1AAFC64201111E800A678EF /* Main.storyboard */,
+				E17748CF20110C0E007F46CF /* LaunchScreen.storyboard */,
+				E1AAFCD6201A934C00A678EF /* Assets.xcassets */,
+				E1AAFC782011646A00A678EF /* Models.scnassets */,
+				E1AAFC7620115F5C00A678EF /* Info.plist */,
+				E1AAFC882013760200A678EF /* Function_3dModel.swift */,
+				E14DBE2F203513800022DAD8 /* Chapter1_FlowerGarden.swift */,
+				E14DBE2B2034EC360022DAD8 /* Chapter2_Car.swift */,
+				E1AAFC9E2013B8CC00A678EF /* Chapter3_Drawing.swift */,
+				E1AAFC682011161D00A678EF /* Chapter4_Planets.swift */,
+				E1AAFCDE201D1C9300A678EF /* Chapter5_Basketball.swift */,
+				E1AAFC6A201122A300A678EF /* Chapter6_Music.swift */,
+				E1AAFC6C2011250D00A678EF /* Song_GangnamStyle_freeMusic.mp3 */,
+				E14DBE2D203513340022DAD8 /* Chapter7_Room.swift */,
+				E10C07292023A48B00895126 /* MeinErsteHilfeKasten.swift */,
 			);
 			path = Elias;
 			sourceTree = "<group>";
@@ -145,42 +144,6 @@
 			productReference = E13CFB711FE2C4D100FD82F8 /* Elias.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E13CFB841FE2C4D200FD82F8 /* EliasTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E13CFB9C1FE2C4D200FD82F8 /* Build configuration list for PBXNativeTarget "EliasTests" */;
-			buildPhases = (
-				E13CFB811FE2C4D200FD82F8 /* Sources */,
-				E13CFB821FE2C4D200FD82F8 /* Frameworks */,
-				E13CFB831FE2C4D200FD82F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E13CFB871FE2C4D200FD82F8 /* PBXTargetDependency */,
-			);
-			name = EliasTests;
-			productName = EliasTests;
-			productReference = E13CFB851FE2C4D200FD82F8 /* EliasTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		E13CFB8F1FE2C4D200FD82F8 /* EliasUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E13CFB9F1FE2C4D200FD82F8 /* Build configuration list for PBXNativeTarget "EliasUITests" */;
-			buildPhases = (
-				E13CFB8C1FE2C4D200FD82F8 /* Sources */,
-				E13CFB8D1FE2C4D200FD82F8 /* Frameworks */,
-				E13CFB8E1FE2C4D200FD82F8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E13CFB921FE2C4D200FD82F8 /* PBXTargetDependency */,
-			);
-			name = EliasUITests;
-			productName = EliasUITests;
-			productReference = E13CFB901FE2C4D200FD82F8 /* EliasUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -194,16 +157,6 @@
 					E13CFB701FE2C4D100FD82F8 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
-					};
-					E13CFB841FE2C4D200FD82F8 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E13CFB701FE2C4D100FD82F8;
-					};
-					E13CFB8F1FE2C4D200FD82F8 = {
-						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
-						TestTargetID = E13CFB701FE2C4D100FD82F8;
 					};
 				};
 			};
@@ -221,8 +174,6 @@
 			projectRoot = "";
 			targets = (
 				E13CFB701FE2C4D100FD82F8 /* Elias */,
-				E13CFB841FE2C4D200FD82F8 /* EliasTests */,
-				E13CFB8F1FE2C4D200FD82F8 /* EliasUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -232,23 +183,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13CFB7F1FE2C4D200FD82F8 /* LaunchScreen.storyboard in Resources */,
-				E13CFB7C1FE2C4D200FD82F8 /* Assets.xcassets in Resources */,
-				E13CFB7A1FE2C4D200FD82F8 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E13CFB831FE2C4D200FD82F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E13CFB8E1FE2C4D200FD82F8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E17748D320110C0F007F46CF /* LaunchScreen.storyboard in Resources */,
+				E1AAFC65201111E800A678EF /* Main.storyboard in Resources */,
+				E1AAFC6D2011250D00A678EF /* Song_GangnamStyle_freeMusic.mp3 in Resources */,
+				E1AAFCD7201A934D00A678EF /* Assets.xcassets in Resources */,
+				E1AAFC792011646A00A678EF /* Models.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,60 +198,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E13CFB771FE2C4D200FD82F8 /* ViewController.swift in Sources */,
-				E13CFB751FE2C4D200FD82F8 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E13CFB811FE2C4D200FD82F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E13CFB8A1FE2C4D200FD82F8 /* EliasTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E13CFB8C1FE2C4D200FD82F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E13CFB951FE2C4D200FD82F8 /* EliasUITests.swift in Sources */,
+				E1AAFC9F2013B8CC00A678EF /* Chapter3_Drawing.swift in Sources */,
+				E14DBE30203513800022DAD8 /* Chapter1_FlowerGarden.swift in Sources */,
+				E10C072A2023A48B00895126 /* MeinErsteHilfeKasten.swift in Sources */,
+				E1AAFC6F20112DD800A678EF /* PickerView.swift in Sources */,
+				E17748E020110CA7007F46CF /* AppDelegate.swift in Sources */,
+				E1AAFC692011161D00A678EF /* Chapter4_Planets.swift in Sources */,
+				E14DBE2C2034EC360022DAD8 /* Chapter2_Car.swift in Sources */,
+				E14DBE2E203513340022DAD8 /* Chapter7_Room.swift in Sources */,
+				E1AAFC892013760200A678EF /* Function_3dModel.swift in Sources */,
+				E1AAFCDF201D1C9300A678EF /* Chapter5_Basketball.swift in Sources */,
+				E1AAFC6B201122A300A678EF /* Chapter6_Music.swift in Sources */,
+				E17748E220110CEF007F46CF /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E13CFB871FE2C4D200FD82F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E13CFB701FE2C4D100FD82F8 /* Elias */;
-			targetProxy = E13CFB861FE2C4D200FD82F8 /* PBXContainerItemProxy */;
-		};
-		E13CFB921FE2C4D200FD82F8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E13CFB701FE2C4D100FD82F8 /* Elias */;
-			targetProxy = E13CFB911FE2C4D200FD82F8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E13CFB781FE2C4D200FD82F8 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E13CFB791FE2C4D200FD82F8 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E13CFB7D1FE2C4D200FD82F8 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E13CFB7E1FE2C4D200FD82F8 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E13CFB971FE2C4D200FD82F8 /* Debug */ = {
@@ -429,6 +330,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XB6X826ZZR;
 				INFOPLIST_FILE = Elias/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ARKinderbuch.Elias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,77 +346,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XB6X826ZZR;
 				INFOPLIST_FILE = Elias/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ARKinderbuch.Elias;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		E13CFB9D1FE2C4D200FD82F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XB6X826ZZR;
-				INFOPLIST_FILE = EliasTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ARKinderbuch.EliasTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elias.app/Elias";
-			};
-			name = Debug;
-		};
-		E13CFB9E1FE2C4D200FD82F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XB6X826ZZR;
-				INFOPLIST_FILE = EliasTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ARKinderbuch.EliasTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elias.app/Elias";
-			};
-			name = Release;
-		};
-		E13CFBA01FE2C4D200FD82F8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XB6X826ZZR;
-				INFOPLIST_FILE = EliasUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ARKinderbuch.EliasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Elias;
-			};
-			name = Debug;
-		};
-		E13CFBA11FE2C4D200FD82F8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XB6X826ZZR;
-				INFOPLIST_FILE = EliasUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ARKinderbuch.EliasUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Elias;
 			};
 			name = Release;
 		};
@@ -535,24 +372,6 @@
 			buildConfigurations = (
 				E13CFB9A1FE2C4D200FD82F8 /* Debug */,
 				E13CFB9B1FE2C4D200FD82F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E13CFB9C1FE2C4D200FD82F8 /* Build configuration list for PBXNativeTarget "EliasTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E13CFB9D1FE2C4D200FD82F8 /* Debug */,
-				E13CFB9E1FE2C4D200FD82F8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E13CFB9F1FE2C4D200FD82F8 /* Build configuration list for PBXNativeTarget "EliasUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E13CFBA01FE2C4D200FD82F8 /* Debug */,
-				E13CFBA11FE2C4D200FD82F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

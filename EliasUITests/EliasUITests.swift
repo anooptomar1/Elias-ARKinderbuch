@@ -5,7 +5,7 @@
 //  Created by Janine Weirich on 14.12.17.
 //  Copyright © 2017 Janine Weirich. All rights reserved.
 //
-
+/*
 import XCTest
 
 class EliasUITests: XCTestCase {
@@ -34,3 +34,5 @@ class EliasUITests: XCTestCase {
     }
     
 }
+ 
+ */

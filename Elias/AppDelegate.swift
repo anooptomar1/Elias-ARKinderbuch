@@ -1,19 +1,22 @@
-//
-//  AppDelegate.swift
-//  Elias
-//
-//  Created by Janine Weirich on 14.12.17.
-//  Copyright © 2017 Janine Weirich. All rights reserved.
-//
+
+// ************************************ //
+/*
+ *  Elias ARKinderbuch – Janine Weirich
+ *  Dezember 2017 (Swift ARKit bei Manu)
+ *  „AppDelegate.swift"
+ *  - erscheint automatisch bei neuem xCode-Projekt
+ *  - nichts in diesem Code verändert
+ */
+// ************************************ //
 
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
+class AppDelegate: UIResponder, UIApplicationDelegate  {
+    
     var window: UIWindow?
 
-
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
@@ -43,4 +46,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+ 

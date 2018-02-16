@@ -5,7 +5,7 @@
 //  Created by Janine Weirich on 14.12.17.
 //  Copyright © 2017 Janine Weirich. All rights reserved.
 //
-
+/*
 import XCTest
 @testable import Elias
 
@@ -34,3 +34,4 @@ class EliasTests: XCTestCase {
     }
     
 }
+*/

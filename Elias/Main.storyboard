@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Elias" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbM-O4-bKa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.73252142215747895" green="0.72934736100261444" blue="0.73900777101516724" alpha="0.27756382042253519" colorSpace="custom" customColorSpace="sRGB"/>
+                            </arscnView>
+                            <button autoresizesSubviews="NO" opaque="NO" clearsContextBeforeDrawing="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OIR-3r-j7c" userLabel="0_Help Elias">
+                                <rect key="frame" x="57" y="169" width="260" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="5BA-F7-dRo"/>
+                                    <constraint firstAttribute="width" constant="260" id="zWK-Ww-vty"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="image_helpElias"/>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" alpha="0.75" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DFJ-Dq-qW1" userLabel="0_Help Bubble">
+                                <rect key="frame" x="155" y="30" width="200" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Dqx-lX-CAB"/>
+                                    <constraint firstAttribute="height" constant="170" id="cnk-Xs-moT"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="image_helpElias_Bubble"/>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vZ-4u-zZF" userLabel="0_Help Label">
+                                <rect key="frame" x="175" y="54" width="180" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="180" id="KbG-zh-4vu"/>
+                                    <constraint firstAttribute="height" constant="85" id="OlZ-eQ-RsW"/>
+                                </constraints>
+                                <string key="text">Wähle ein Kapitel aus,                                                                       um Abenteuer mit Elias               zu erleben. 👦🏻</string>
+                                <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sc-OG-iAm" userLabel="1_Flower🌸">
+                                <rect key="frame" x="275" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Eu1-P5-6oX"/>
+                                    <constraint firstAttribute="width" constant="50" id="e1u-JT-daM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="🌸" backgroundImage="image_Button_chapter1-flower"/>
+                                <connections>
+                                    <action selector="didTapFlower:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aNg-at-CFl"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oM9-4c-8hi" userLabel="2_Car🚗">
+                                <rect key="frame" x="275" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7i2-oY-44y"/>
+                                    <constraint firstAttribute="width" constant="50" id="Svm-o1-BSY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title=" 🚗" backgroundImage="image_Button_chapter6-room"/>
+                                <connections>
+                                    <action selector="didTapCar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wUq-lT-SIG"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pof-9i-3fC" userLabel="3_Draw🖍red">
+                                <rect key="frame" x="20" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Vkz-Im-VSq"/>
+                                    <constraint firstAttribute="width" constant="50" id="ccr-H2-JFA"/>
+                                </constraints>
+                                <color key="tintColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="1" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="🖍" backgroundImage="image_Button_drawButton-red"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6FR-Bq-Loi" userLabel="3_Draw🖌blue">
+                                <rect key="frame" x="80" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="nGX-l5-4mO"/>
+                                    <constraint firstAttribute="height" constant="50" id="umg-hU-eqV"/>
+                                </constraints>
+                                <state key="normal" title="🖌" backgroundImage="image_Button_drawButton-blue"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mmy-xR-JMe" userLabel="3_Draw✏️yellow">
+                                <rect key="frame" x="245" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0Oq-e3-aXu"/>
+                                    <constraint firstAttribute="width" constant="50" id="mQk-0j-eEa"/>
+                                </constraints>
+                                <state key="normal" title="✏️" backgroundImage="image_Button_drawButton-yellow"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYY-ie-BEK" userLabel="3_Draw✒️green">
+                                <rect key="frame" x="305" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="M8G-Gs-nxj"/>
+                                    <constraint firstAttribute="height" constant="50" id="nvY-Yh-fns"/>
+                                </constraints>
+                                <state key="normal" title="✒️" backgroundImage="image_Button_drawButton-green"/>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jg3-qH-gdx" userLabel="3_Clear Button">
+                                <rect key="frame" x="20" y="20" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="wji-kz-buz"/>
+                                    <constraint firstAttribute="width" constant="50" id="ytq-w4-TlA"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="🆕" backgroundImage="image_Button_chapter"/>
+                                <connections>
+                                    <action selector="didTapClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rb7-hc-gYG"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRb-aN-W7Y" userLabel="4_Planet🌍">
+                                <rect key="frame" x="50" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="FQa-rE-hON"/>
+                                    <constraint firstAttribute="width" constant="50" id="nDI-FI-0Jm"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="🌍" backgroundImage="image_Button_chapter3-planet"/>
+                                <connections>
+                                    <action selector="didTapPlanets:" destination="BYZ-38-t0r" eventType="touchUpInside" id="azh-Tw-VAc"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tGa-xd-XTs" userLabel="4_Planet🌍big">
+                                <rect key="frame" x="305" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="a2c-aT-DwA"/>
+                                    <constraint firstAttribute="width" constant="50" id="mXH-g1-wXb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                <state key="normal" title="🌍" backgroundImage="image_Button_chapter3-planet"/>
+                                <connections>
+                                    <action selector="didTapGrowPlanet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qop-7a-Svh"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m64-8B-F84" userLabel="4_Planet🌍little">
+                                <rect key="frame" x="245" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="eJ9-cB-TjO"/>
+                                    <constraint firstAttribute="width" constant="50" id="zOf-cv-uZX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <state key="normal" title="🌍" backgroundImage="image_Button_chapter3-planet"/>
+                                <connections>
+                                    <action selector="didTapShrinkPlanet:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WrM-0v-Mre"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czX-Wl-Hrk" userLabel="5_Basketball🏀">
+                                <rect key="frame" x="275" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0wb-OD-gh1"/>
+                                    <constraint firstAttribute="height" constant="50" id="lmO-aZ-xOe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="🏀" backgroundImage="image_Button_drawButton-yellow"/>
+                                <connections>
+                                    <action selector="didTapBasketball:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KFa-fj-HJ5"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHK-89-eus" userLabel="6_Dance🎵">
+                                <rect key="frame" x="275" y="587" width="50" height="50"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" button="YES" playsSound="YES"/>
+                                </accessibility>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="Slh-pz-tm4"/>
+                                    <constraint firstAttribute="height" constant="50" id="h9v-RQ-Pf2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="🎵" backgroundImage="image_Button_chapter5-dance"/>
+                                <connections>
+                                    <action selector="didTapDance:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F7V-TL-qCh"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cgj-bd-hRB" userLabel="7_Room🏠">
+                                <rect key="frame" x="275" y="587" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="TpQ-ia-iPu"/>
+                                    <constraint firstAttribute="width" constant="50" id="xO0-3n-Uj2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="🏠" backgroundImage="image_Button_chapter6-room"/>
+                                <connections>
+                                    <action selector="didTapEliasRoom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OnR-uq-Yhl"/>
+                                </connections>
+                            </button>
+                            <pickerView hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JYI-9s-NdM" userLabel="Picker View🔎">
+                                <rect key="frame" x="117.5" y="352" width="140" height="210"/>
+                                <color key="backgroundColor" red="0.96810811450000001" green="0.97788698429999998" blue="0.97788698429999998" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="LEs-4G-f1Q"/>
+                                    <constraint firstAttribute="height" constant="210" id="uB9-ab-uth"/>
+                                </constraints>
+                            </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tvd-YR-Wjc" userLabel="Chapter Button🔎">
+                                <rect key="frame" x="150" y="572" width="75" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="02v-gV-9Ks"/>
+                                    <constraint firstAttribute="width" constant="75" id="i9A-rd-Wkx"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <state key="normal" title="Kapitel" backgroundImage="image_Button_chapter">
+                                    <color key="titleColor" red="0.18014127016067505" green="0.18820679187774658" blue="0.19237682223320007" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="selectChapter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ypV-8a-ttb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="287-jr-ozR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="m64-8B-F84" secondAttribute="bottom" constant="30" id="3SG-KV-M3M"/>
+                            <constraint firstItem="OIR-3r-j7c" firstAttribute="top" secondItem="2vZ-4u-zZF" secondAttribute="bottom" constant="30" id="5Cb-Ao-LeR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3sc-OG-iAm" secondAttribute="bottom" constant="30" id="6Te-gh-A7a"/>
+                            <constraint firstItem="Tvd-YR-Wjc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6gr-y3-aAF"/>
+                            <constraint firstItem="Tvd-YR-Wjc" firstAttribute="top" secondItem="JYI-9s-NdM" secondAttribute="bottom" constant="10" id="6sy-26-Hnb"/>
+                            <constraint firstItem="2vZ-4u-zZF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="34" id="94y-Wp-OYB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tGa-xd-XTs" secondAttribute="bottom" constant="30" id="9Tz-nB-nnA"/>
+                            <constraint firstItem="HHK-89-eus" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="50" id="AiS-j9-cQT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HHK-89-eus" secondAttribute="bottom" constant="30" id="CiY-K9-DUg"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Dku-rK-fQH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="PYY-ie-BEK" secondAttribute="bottom" constant="30" id="E31-wy-pVN"/>
+                            <constraint firstItem="mmy-xR-JMe" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="20" id="FdZ-Mf-i5E"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="IMM-aM-LVn"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DFJ-Dq-qW1" secondAttribute="trailing" constant="20" id="KBP-0H-hFV"/>
+                            <constraint firstItem="m64-8B-F84" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="20" id="Mjp-OZ-Wp5"/>
+                            <constraint firstItem="JYI-9s-NdM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N0x-50-oIn"/>
+                            <constraint firstItem="oM9-4c-8hi" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="50" id="NDb-Hu-xty"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Pof-9i-3fC" secondAttribute="bottom" constant="30" id="NXE-fl-kv6"/>
+                            <constraint firstItem="jg3-qH-gdx" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="P9V-uW-dQg"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oM9-4c-8hi" secondAttribute="bottom" constant="30" id="Q06-p9-pOh"/>
+                            <constraint firstItem="cgj-bd-hRB" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="50" id="QXe-XR-i9k"/>
+                            <constraint firstItem="3sc-OG-iAm" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="50" id="UOG-My-825"/>
+                            <constraint firstItem="Tvd-YR-Wjc" firstAttribute="leading" secondItem="6FR-Bq-Loi" secondAttribute="trailing" constant="20" id="V3c-gY-wCR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="mmy-xR-JMe" secondAttribute="bottom" constant="30" id="VFY-Do-FVB"/>
+                            <constraint firstItem="Tvd-YR-Wjc" firstAttribute="leading" secondItem="dRb-aN-W7Y" secondAttribute="trailing" constant="50" id="VPx-Em-r2m"/>
+                            <constraint firstItem="OIR-3r-j7c" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YIT-3H-Jyp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6FR-Bq-Loi" secondAttribute="bottom" constant="30" id="ZO7-hl-ug7"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="a8t-sz-PhW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="cgj-bd-hRB" secondAttribute="bottom" constant="30" id="bMx-Wr-Q0y"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="c0s-Bo-V3x"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="de0-ej-aK4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Tvd-YR-Wjc" secondAttribute="bottom" constant="20" id="eQC-pr-xbH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="3sc-OG-iAm" secondAttribute="bottom" constant="30" id="f4I-39-zf0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dRb-aN-W7Y" secondAttribute="bottom" constant="30" id="hgm-bG-7qD"/>
+                            <constraint firstItem="jg3-qH-gdx" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="huS-ib-lCq"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="i5j-mB-M11"/>
+                            <constraint firstItem="cbM-O4-bKa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="j9O-fJ-aWG"/>
+                            <constraint firstItem="DFJ-Dq-qW1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="l2j-uq-cqi"/>
+                            <constraint firstItem="6FR-Bq-Loi" firstAttribute="leading" secondItem="Pof-9i-3fC" secondAttribute="trailing" constant="10" id="nXE-GX-oe4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="czX-Wl-Hrk" secondAttribute="bottom" constant="30" id="odz-dk-3No"/>
+                            <constraint firstItem="tGa-xd-XTs" firstAttribute="leading" secondItem="mmy-xR-JMe" secondAttribute="trailing" constant="10" id="qVY-v9-2um"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2vZ-4u-zZF" secondAttribute="trailing" constant="20" id="rVv-un-HlH"/>
+                            <constraint firstItem="czX-Wl-Hrk" firstAttribute="leading" secondItem="Tvd-YR-Wjc" secondAttribute="trailing" constant="50" id="uoL-B3-cyH"/>
+                            <constraint firstItem="PYY-ie-BEK" firstAttribute="leading" secondItem="mmy-xR-JMe" secondAttribute="trailing" constant="10" id="znN-91-HJ8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="basketballButton" destination="czX-Wl-Hrk" id="nFY-5a-hWD"/>
+                        <outlet property="carButton" destination="oM9-4c-8hi" id="KQa-U6-NgO"/>
+                        <outlet property="chapterButton" destination="Tvd-YR-Wjc" id="99y-vV-9jp"/>
+                        <outlet property="clearButton" destination="jg3-qH-gdx" id="dMA-R4-TVH"/>
+                        <outlet property="danceButton" destination="HHK-89-eus" id="qRW-KK-Ene"/>
+                        <outlet property="drawButtonBlue" destination="6FR-Bq-Loi" id="q6F-RR-8al"/>
+                        <outlet property="drawButtonGreen" destination="PYY-ie-BEK" id="L9G-Sq-6Jv"/>
+                        <outlet property="drawButtonRed" destination="Pof-9i-3fC" id="uIB-lz-GT4"/>
+                        <outlet property="drawButtonYellow" destination="mmy-xR-JMe" id="73U-MT-SII"/>
+                        <outlet property="eliasRoomButton" destination="cgj-bd-hRB" id="dtK-Ob-zmm"/>
+                        <outlet property="flowerButton" destination="3sc-OG-iAm" id="TAT-jr-YO5"/>
+                        <outlet property="helpBubble" destination="DFJ-Dq-qW1" id="3en-J0-C8t"/>
+                        <outlet property="helpElias" destination="OIR-3r-j7c" id="xUE-9g-UD2"/>
+                        <outlet property="helpText" destination="2vZ-4u-zZF" id="fbn-Ep-lOl"/>
+                        <outlet property="pickerView" destination="JYI-9s-NdM" id="O0t-TT-Eea"/>
+                        <outlet property="planetButton" destination="dRb-aN-W7Y" id="usC-Yf-NgD"/>
+                        <outlet property="planetGrowButton" destination="tGa-xd-XTs" id="wJs-4s-HV3"/>
+                        <outlet property="planetShrinkButton" destination="m64-8B-F84" id="Cu8-yv-c20"/>
+                        <outlet property="sceneView" destination="cbM-O4-bKa" id="L2s-hm-Gee"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134.5" y="132.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="image_Button_chapter" width="100" height="100"/>
+        <image name="image_Button_chapter1-flower" width="100" height="100"/>
+        <image name="image_Button_chapter3-planet" width="100" height="100"/>
+        <image name="image_Button_chapter5-dance" width="100" height="100"/>
+        <image name="image_Button_chapter6-room" width="100" height="100"/>
+        <image name="image_Button_drawButton-blue" width="100" height="100"/>
+        <image name="image_Button_drawButton-green" width="100" height="100"/>
+        <image name="image_Button_drawButton-red" width="100" height="100"/>
+        <image name="image_Button_drawButton-yellow" width="100" height="100"/>
+        <image name="image_helpElias" width="413" height="385"/>
+        <image name="image_helpElias_Bubble" width="345" height="256"/>
+    </resources>
+</document>
